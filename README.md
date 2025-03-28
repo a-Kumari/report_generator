@@ -36,18 +36,31 @@ This project is a secure report generation system built with FastAPI that provid
     pip install -r requirements.txt
 
 4. Create .env file:
+
     OPENWEATHER_API_KEY=your_openweather_key
+
     EMAIL_FROM=your@gmail.com
+
     EMAIL_PASSWORD=your_app_password
+
     SMTP_SERVER=smtp.gmail.com
+
     SMTP_PORT=465 # for TLS 
+
     SECRET_KEY=your_jwt_secret
+
     ALGORITHM = JWT algorithm HS256
+
     POSTGRES_USER = your_postgres_username
+
     POSTGRES_PASSWORD = your_postgres_password
+
     POSTGRES_DB = your_database_name
+
     POSTGRES_HOST = hostname 
-    POSTGRES_PORT = port     
+
+    POSTGRES_PORT = port    
+     
     ADMIN_SECRET_KEY = your_key  #it can be anything
 
 * Run database migrations (if using Alembic or similar):
