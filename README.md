@@ -66,6 +66,7 @@ This project is a secure report generation system built with FastAPI that provid
 * Run database migrations (if using Alembic or similar):
     ```bash
     #example with alembic
+    alembic init alembic
     alembic revision --autogenerate -m "inital migration"
     alembic upgrade head
 
